@@ -42,6 +42,17 @@ a {
     text-decoration: none;
 }
 
+.logo-img {
+    height: 40px; /* Define a altura da logo. Você pode aumentar ou diminuir esse valor */
+    width: auto;  /* Mantém a proporção da imagem correta */
+    display: block; /* Remove espaços extras indesejados abaixo da imagem */
+    transition: transform 0.3s ease; /* Prepara a imagem para uma animação */
+}
+
+.logo a:hover .logo-img {
+    transform: scale(1.05);
+}
+
 .navbar .logo span {
     color: #FFCC00; /* Amarelo Dourado */
     text-decoration: none;
