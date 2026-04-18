@@ -221,12 +221,24 @@ a {
 .mural-de-avisos {
     background-color: white;
     width: auto;
-    height: 50dvh;
+    height: 60dvh;
 }
 
 .mural-de-avisos .container {
     display: flex;
     justify-content: space-around;
+    height: 60dvh;
+}
+
+.mural {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.video {
+    height: 100px;
+    width: auto;
 }
 
 /* Rodapé */
