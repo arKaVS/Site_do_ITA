@@ -194,7 +194,7 @@ a {
     background-color: white;
     color: #001f3f;
     text-align: center;
-    height: 90dvh;
+    height: 40dvh;
     width: auto;
     padding-top: 40px
 }
@@ -216,6 +216,17 @@ a {
     text-align: center;
     border-top: 4px solid #003366;
     transition: transform 0.3s ease;
+}
+
+.mural-de-avisos {
+    background-color: white;
+    width: auto;
+    height: 50dvh;
+}
+
+.mural-de-avisos .container {
+    display: flex;
+    justify-content: space-around;
 }
 
 /* Rodapé */
