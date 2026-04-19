@@ -208,7 +208,7 @@ a {
 
 
 .mural-de-avisos {
-    background-color: white;
+    padding-top: 60px;
     padding-bottom: 50px;
     width: auto;
     min-height: 80dvh;
@@ -234,7 +234,13 @@ a {
     padding-top: 15px;
 }
 
+.mural .card h2 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
 .locais-de-prova {
+    padding-top: 20px;
     display: flex;
     flex-flow: column wrap;
     width: 400px;
