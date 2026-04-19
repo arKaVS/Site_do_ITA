@@ -209,14 +209,15 @@ a {
 
 .mural-de-avisos {
     background-color: white;
+    padding-bottom: 50px;
     width: auto;
-    height: 80dvh;
+    min-height: 80dvh;
 }
 
 .mural-de-avisos .container {
     display: flex;
     justify-content: space-around;
-    height: 80dvh;
+    min-height: 80dvh;
 }
 
 .mural {
@@ -224,6 +225,7 @@ a {
     flex-flow: column wrap;
     justify-content: space-around;
     align-items: center;
+    gap: 40px;
 }
 
 .mural .card {
@@ -232,9 +234,11 @@ a {
     padding-top: 15px;
 }
 
-.video {
-    height: 100px;
-    width: auto;
+.locais-de-prova {
+    display: flex;
+    flex-flow: column wrap;
+    width: 400px;
+    height: 300px;
 }
 
 /* Rodapé */
