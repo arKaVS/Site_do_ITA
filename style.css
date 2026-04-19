@@ -276,6 +276,21 @@ a {
     padding-bottom: 10px;
 }
 
+.secao-de-contatos .container {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    min-height: 69dvh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.secao-de-contatos h1,.secao-de-contatos h2,.secao-de-contatos h3 {
+    padding-top: 10px;
+    color: #003366;
+}
+
 footer {
     background-color: #001f3f;
     color: white;
