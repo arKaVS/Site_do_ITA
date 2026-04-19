@@ -247,7 +247,31 @@ a {
     height: 300px;
 }
 
-/* Rodapé */
+.secao-de-perguntas .container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 69dvh;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.secao-de-perguntas .container h1 {
+    color: #003366;
+}
+
+.secao-de-perguntas .card {
+    flex: none;
+    padding-left: 60px;
+    text-align: start;
+}
+
+.secao-de-perguntas .card li {
+    text-decoration: solid;
+    padding-bottom: 10px;
+}
+
 footer {
     background-color: #001f3f;
     color: white;
