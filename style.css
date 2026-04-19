@@ -221,19 +221,26 @@ a {
 .mural-de-avisos {
     background-color: white;
     width: auto;
-    height: 60dvh;
+    height: 80dvh;
 }
 
 .mural-de-avisos .container {
     display: flex;
     justify-content: space-around;
-    height: 60dvh;
+    height: 80dvh;
 }
 
 .mural {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;
+    align-items: center;
+}
+
+.mural .card {
+    height: fit-content;
+    flex: none;
+    padding-top: 15px;
 }
 
 .video {
