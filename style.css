@@ -194,9 +194,10 @@ a {
     background-color: white;
     color: #001f3f;
     text-align: center;
-    height: 40dvh;
+    min-height: 30dvh;
     width: auto;
-    padding-top: 40px
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 .inscr-section div.container {
@@ -230,6 +231,7 @@ a {
 
 .mural .card {
     height: fit-content;
+    width: 500px;
     flex: none;
     padding-top: 15px;
 }
@@ -243,8 +245,10 @@ a {
     padding-top: 20px;
     display: flex;
     flex-flow: column wrap;
+    align-content: space-around;
     width: 400px;
     height: 300px;
+    margin-inline: auto;
 }
 
 .secao-de-perguntas .container {
